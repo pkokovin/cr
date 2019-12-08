@@ -1,5 +1,5 @@
 
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e5b83885016e4d1bb3c02a18024359bf)](https://www.codacy.com/manual/pkokovin/cr?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pkokovin/cr&amp;utm_campaign=Badge_Grade)
 
 Разработка приложения регистрации телефонных звонков оператором.
 
@@ -22,3 +22,12 @@
 Spring MVC
 Hibernate ORM
 СУБД Postgres
+система сборки Maven
+
+параметры БД:
+название базы = callreg
+имя пользователя = user
+пароль = password
+(в файле resources/database.properties)
+инициализация и популяция скриптом
+(resources/db/initDB_pgsql.sql resources/db/populateDB.sql) 

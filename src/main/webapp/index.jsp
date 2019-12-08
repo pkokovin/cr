@@ -12,7 +12,7 @@
 <jsp:include page="WEB-INF/views/fragments/bodyHeader.jsp"/>
 <div class="jumbotron">
     <div class="container">
-        <form method="post" class="form-inline">
+        <form method="post" action="${pageContext.request.contextPath}/operator/" class="form-inline">
             <label>Login</label>
             <select name="userId" class="form-control mx-3">
                 <option value="100000" selected>operator1</option>

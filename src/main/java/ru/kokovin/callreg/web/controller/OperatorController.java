@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.kokovin.callreg.exception.ResourceNotFoundException;
 import ru.kokovin.callreg.model.Operator;
 import ru.kokovin.callreg.service.OperatorService;
+import ru.kokovin.callreg.web.SecurityUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;

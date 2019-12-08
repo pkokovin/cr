@@ -1,5 +1,6 @@
 package ru.kokovin.callreg.web;
 
+
 import ru.kokovin.callreg.model.AbstractBaseEntity;
 
 public class SecurityUtil {
@@ -16,4 +17,5 @@ public class SecurityUtil {
     public static void setAuthUserId(int id) {
         SecurityUtil.id = id;
     }
+
 }
